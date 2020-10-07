@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} WinnPro Construction &bull; <a href="https://w3layouts.com">Go back to WinnPro Home Page</a></p>
+        <p>&copy; {new Date().getFullYear()} WinnPro Construction &bull; <a href="quirky-blackwell-1dd863.netlify.app">Go back to WinnPro Home Page</a></p>
       </footer>
     </div>
   )
