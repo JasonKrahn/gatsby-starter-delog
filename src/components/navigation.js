@@ -4,7 +4,7 @@ import ThemeChanger from "../components/themeChanger"
 
 export default (props) => (
   <nav className="navigation"> 
-    <Link to="/contact">Go back to WinnPro home</Link>
+    <Link to="quirky-blackwell-1dd863.netlify.app">Go back to WinnPro home</Link>
     <ThemeChanger/>
   </nav>
   
