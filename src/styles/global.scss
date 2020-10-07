@@ -1,4 +1,4 @@
-$font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$font-family: exo;
 
 html,
 body {
@@ -9,9 +9,9 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #661b18;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #661b18;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -29,17 +29,17 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #7a221f;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
-  --background: #0A041A;
+  --background: #161616;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
-  --card-bg: #181326;
-  --card-bdr: #181326;
+  --card-bg: #1d0807;
+  --card-bdr: #000000;
   --card-shadow: #020204;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
@@ -97,7 +97,7 @@ a {
   justify-content: space-between;
   padding: 20px 0;
   background: var(--site-header);
-  margin-bottom: 32px;
+  margin-bottom: 17px;
   align-items: center;
 }
 .site-title a {
@@ -107,13 +107,13 @@ a {
   text-transform: uppercase;
 }
 .hero-header {
-  padding: 0 0 64px;
+  padding: 0 0 5px;
   max-width: 980px;
 }
 .headline {
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 .button {
   padding: 18px 27px;
@@ -181,7 +181,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 18px;
+  border-radius: 3px;
   margin-bottom: 36px;
   color: var(--featured-text);
   display: grid;
@@ -217,7 +217,7 @@ a {
 .card {
   display: grid;
   background-color: var(--card-bg);
-  border-radius: 9px;
+  border-radius: 3px;
   border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;

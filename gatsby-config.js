@@ -44,14 +44,23 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `WinnPro Blog`,
+        short_name: `WinnPro Blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
         display: `standalone`,
         icon: "src/images/icon.png",
-      },
+      }
+    },
+      {
+        resolve: `gatsby-plugin-google-fonts`,
+        options: {
+          fonts: [
+            `Exo`,
+          ],
+          display: 'swap'
+        }
     },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,

@@ -56,7 +56,7 @@ collections:
       - name: path
         label: Path
         widget: string
-        pattern: [/]
+        pattern: ['^(?!.*\/\/)[A-Za-z0-9][A-Za-z0-9\/]*$', "Must start with /"]
         hint: "Path must start with /"
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
