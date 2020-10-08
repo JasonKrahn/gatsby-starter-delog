@@ -2,7 +2,7 @@
 template: BlogPost
 path: /3
 date: 2020-02-21T12:12:25.364Z
-title: 'Worth Sharing'
+title: "Worth Sharing"
 thumbnail: https://ucarecdn.com/68a13a08-11fe-40fe-ba31-fffd0d1cff6d/
 metaDescription: Meta description for Hello World
 ---
@@ -21,11 +21,11 @@ metaDescription: Meta description for Hello World
 
 ## Horizontal Rules
 
-- - -
+---
 
-- - -
+---
 
-- - -
+---
 
 ## Typographic replacements
 
@@ -35,7 +35,7 @@ Enable typographer option to see result.
 
 test.. test... test..... test?..... test!....
 
-!!!!!! ???? ,,  -- ---
+!!!!!! ???? ,, -- ---
 
 "Smartypants, double quotes" and 'single quotes'
 
@@ -45,9 +45,9 @@ test.. test... test..... test?..... test!....
 
 **This is bold text**
 
-*This is italic text*
+_This is italic text_
 
-*This is italic text*
+_This is italic text_
 
 ~~Strikethrough~~
 
@@ -63,15 +63,16 @@ test.. test... test..... test?..... test!....
 
 Unordered
 
-* Create a list by starting a line with `+`, `-`, or `*`
-* Sub-lists are made by indenting 2 spaces:
+- Create a list by starting a line with `+`, `-`, or `*`
+- Sub-lists are made by indenting 2 spaces:
 
-  * Marker character change forces new list start:
+  - Marker character change forces new list start:
 
-    * Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    * Nulla volutpat aliquam velit
-* Very easy!
+    - Ac tristique libero volutpat at
+    - Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
+
+- Very easy!
 
 Ordered
 
@@ -91,8 +92,6 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 ## Images
 
-![Image](https://ucarecdn.com/68a13a08-11fe-40fe-ba31-fffd0d1cff6d/MT6.jpg) 
+![Image](https://ucarecdn.com/68a13a08-11fe-40fe-ba31-fffd0d1cff6d/MT6.jpg)
 
 Like links, Images also have a footnote style syntax
-
-
